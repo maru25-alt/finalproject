@@ -1,0 +1,19 @@
+// Variable overrides
+
+$orange: #ffa201;
+$white: #fff;
+$primary: #0ab3f2;
+$darkBlue: #6699ff;
+$dark: #004573;
+$light: #0ab3f2;
+$red: #ff1122;
+$black: #000;
+$background: #ebf1f9;
+
+.primary__btn {
+  background-color: $primary;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 0;
+  color: $white;
+}

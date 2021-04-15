@@ -1,0 +1,151 @@
+.card {
+  padding: 10px 20px !important;
+  padding-bottom: 30px !important;
+}
+
+.card-np {
+  background-color: $white;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.nav__brand {
+  background-color: $light !important;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.sidebar__main {
+  background-color: $dark !important;
+}
+
+.sidebar__minimizer {
+  background-color: transparent !important;
+}
+
+.sidebarIcon {
+  color: $white !important;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.nav__search {
+  display: flex;
+  width: 40vw;
+  opacity: 0.5;
+  align-items: center;
+  margin-left: 30%;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  input {
+    border: none;
+    font-size: 1.1em;
+  }
+}
+
+.form-error {
+  display: block !important;
+}
+
+.user__avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  span {
+    font-size: smaller;
+  }
+}
+
+.content__container {
+  background-color: $white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.lg__btn {
+  padding: 10px 30px !important;
+}
+
+.sm__btn {
+  padding: 5px 15px !important;
+}
+
+.orange__btn {
+  background-color: $orange !important;
+  color: $white !important;
+  &:hover {
+    background-color: $darkBlue !important;
+  }
+}
+
+.dark__btn {
+  background-color: $dark;
+  color: $white !important;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.outlined__btn {
+  border: 2px solid #333;
+  color: $black;
+}
+
+.blue__btn {
+  background-color: $primary !important;
+  color: $white !important;
+  &:hover {
+    background-color: $orange !important;
+  }
+}
+
+.link,
+a {
+  text-decoration: none;
+  &:hover {
+    color: $darkBlue;
+    text-decoration: none;
+  }
+  .icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+.large__avatar {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.blue_bg {
+  background-color: $darkBlue !important;
+  color: aliceblue !important;
+}
+
+.blue_color {
+  color: $darkBlue !important;
+}
+
+.orange_bg {
+  background-color: $orange !important;
+}
+
+.orange_color {
+  color: $orange !important;
+}
+
+.tab__container {
+  min-height: 45vh;
+}

@@ -1,0 +1,70 @@
+.login__page {
+  h3,
+  h1 {
+    color: $primary;
+  }
+  .info__side {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 250, 0.7),
+        rgba(255, 255, 250, 0.7)
+      ),
+      url("../assets/img/bg.jpg");
+    display: grid;
+    place-items: center;
+
+    @media #{$mobile_device} {
+      display: none;
+    }
+    @media #{$tablet_device} {
+      display: none;
+    }
+
+    .info__text-container {
+      width: 80%;
+
+      p {
+        font-weight: 800;
+      }
+    }
+  }
+  .form__side {
+    display: grid;
+    place-items: center;
+
+    @media #{$mobile_device} {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 250, 0.7),
+          rgba(255, 255, 250, 0.7)
+        ),
+        url("../assets/img/bg.jpg");
+    }
+    @media #{$tablet_device} {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 250, 0.7),
+          rgba(255, 255, 250, 0.7)
+        ),
+        url("../assets/img/bg.jpg");
+    }
+    .title {
+      display: none;
+      @media #{$mobile_device} {
+        display: block;
+      }
+      @media #{$tablet_device} {
+        display: block;
+      }
+    }
+
+    .form {
+      input {
+        border-radius: 20px;
+        border: 1px solid $primary;
+        width: 100%;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

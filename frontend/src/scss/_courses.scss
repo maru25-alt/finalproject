@@ -1,0 +1,82 @@
+.classes__container {
+  display: flex;
+  height: 70vh;
+  overflow: hidden;
+  margin: 0;
+  .course__details {
+    flex: 0.66;
+    background-color: $white !important;
+    height: 100%;
+  }
+  .default__view {
+    display: grid;
+    place-items: center;
+  }
+  .tasks {
+    margin-top: 1em;
+    .task__container {
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 5px;
+    }
+  }
+
+  .sidebar {
+    background-color: $white;
+    flex: 0.33;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e3e3e3;
+
+    .course__link {
+      background-color: $white !important;
+      border-bottom: 1px solid #e3e3e3;
+      border-top: 1px solid #e3e3e3;
+      padding: 1.3em;
+      width: 100%;
+    }
+  }
+}
+
+.MuiTabs-indicator {
+  color: $primary !important;
+}
+
+.message__container {
+  display: flex;
+  height: 55vh;
+  flex-direction: column;
+
+  .message__messages {
+    flex: 1;
+  }
+
+  .send {
+    border: 1px solid #e3e3e3;
+    display: flex;
+    padding: 0.2em 0.5em;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      border: none;
+      flex: 1;
+    }
+  }
+}
+
+.file__container {
+  box-shadow: 5px 3px 2px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 20px;
+
+  .file {
+    background-color: $dark;
+    width: 100% !important;
+    padding: 10px;
+    color: $white !important;
+    a {
+      color: $white !important;
+    }
+  }
+}
